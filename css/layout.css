@@ -1,0 +1,2 @@
+.main-content { display: flex; flex-direction: column; gap: 20px; }
+.section-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
