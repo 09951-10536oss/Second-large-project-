@@ -1,0 +1,14 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: system-ui, -apple-system, sans-serif; }
+:root {
+    --bg-main: #f8fafc;
+    --card-bg: #ffffff;
+    --primary: #6366f1;
+    --text-dark: #0f172a;
+    --text-muted: #64748b;
+    --border: #e2e8f0;
+}
+body { background-color: var(--bg-main); color: var(--text-dark); }
+.app-container { max-width: 1000px; margin: 0 auto; padding: 16px; }
+.btn-primary { background: var(--primary); color: #fff; border: none; padding: 8px 16px; border-radius: 8px; cursor: pointer; }
+.btn-secondary { background: var(--border); color: var(--text-dark); border: none; padding: 8px 16px; border-radius: 8px; cursor: pointer; }
+      
