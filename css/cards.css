@@ -1,0 +1,4 @@
+.task-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px; }
+.task-card { background: var(--card-bg); padding: 16px; border-radius: 12px; border: 1px solid var(--border); }
+.progress-bar-bg { background: #e0e7ff; height: 10px; border-radius: 5px; overflow: hidden; }
+.progress-bar-fill { background: var(--primary); height: 100%; transition: width 0.3s ease; }
