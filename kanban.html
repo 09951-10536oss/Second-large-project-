@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduFlow - Kanban Board</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/kanban.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/toast.css">
+</head>
+<body>
+    <div class="app-container">
+        <header class="top-nav">
+            <div class="brand">🎓 EduFlow</div>
+            <nav class="nav-links">
+                <a href="index.html">แดชบอร์ด</a>
+                <a href="kanban.html" class="active">คันบัง</a>
+                <a href="schedule.html">ตารางเรียน</a>
+            </nav>
+        </header>
+        <main class="kanban-board">
+            <div class="kanban-col" id="col-todo"><h3>📌 ต้องทำ</h3><div class="task-list-kanban"></div></div>
+            <div class="kanban-col" id="col-doing"><h3>⏳ กำลังทำ</h3><div class="task-list-kanban"></div></div>
+            <div class="kanban-col" id="col-done"><h3>✅ เสร็จแล้ว</h3><div class="task-list-kanban"></div></div>
+        </main>
+    </div>
+    <script src="js/storage.js"></script>
+    <script src="js/toast.js"></script>
+    <script src="js/kanban.js"></script>
+</body>
+</html>
