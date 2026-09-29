@@ -1,0 +1,2 @@
+.pomo-box { text-align: center; padding: 40px; background: var(--card-bg); border-radius: 16px; }
+#timer-display { font-size: 4rem; margin-bottom: 20px; color: var(--primary); }
